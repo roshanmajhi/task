@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.h{
+    color: red;
+}
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    .nav-link {color:rgb(31, 19, 19); font-size: 1.1rem; font-weight: bold;
+    &:hover{color: red;}
+    }
+}
+.Home{
+    height: 300px; width: 100%;
+    color: red;
+}
+.pages{
+    height: 1000px; width: 100%; background-color: blue;color: white; display: flex;
+    justify-content: center; padding-top: 100px;
+}
+.section1{
+    .bannerh1{
+        color: #112d58;
+        font-size: 36px;
+        line-height: 52px;
+        font-weight: 800;
+    }
+    .social{font-size: 2rem;
+    &:hover{color: red;}
+    }
+}
+.section2{
+    .box2{
+        height: 300px;
+        width: 300px;
+    }
+}
+.section3{
+    .box3{
+        height: 500px;
+        .box3h{font-size: 1rem;}
+
+    }
+}
+.footer{
+    height: 400px;
+    background-color: #F4F8FC;
+    border-radius: 80px 80px;
+    .hf{
+        color: blue;
+    }
+    .p{font-size: 17px; font-weight: bold; 
+        
+    }
+    .li{text-decoration: none; color: gray; line-height: 30px;
+    &:hover{color: blue;}
+    }
+
+}
+.top-btn{
+      display: flex; justify-content: end;
+     .arrow{font-size: 60px; position: fixed; bottom: 3rem; right: 1rem;
+            animation: roshan 1.2s linear infinite alternate-reverse;}
+            @keyframes roshan {
+              0%{
+                  transform: translateY(-0.5rem);
+              }
+              100%{
+                  transform: translateY(1rem);
+              }
+              
+            }
+     &:hover{color: green; 
+    }
+    }
+    .cnt{
+        background-color: rgb(180, 162, 162);
+        border: 1px solid gray;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        .btnl{background-color: blue;color: white;
+        &:hover{transform: scale(1.1); background-color: rgb(150, 51, 51); color: black;}
+        }
+        .msg{height: 160px;}
+        .sam{text-decoration:underline; text-shadow: #112d58; color: blueviolet;}
+    }
